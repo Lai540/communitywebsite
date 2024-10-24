@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7ff;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff6347; /* A vibrant coral color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Yellow on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 30px;
+    margin: 30px 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+section:hover {
+    transform: scale(1.03); /* Slight zoom on hover */
+}
+
+/* Centering Images in Sections */
+section img {
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* Contact Form Styles */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff6347; /* Coral color */
+}
+
+#contact input, #contact textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+#contact input:focus, #contact textarea:focus {
+    border-color: #ff6347;
+}
+
+#contact input[type="submit"] {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #ff4500; /* Darker coral */
+}
+
+/* Team List Styles */
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul li {
+    font-size: 18px;
+    padding: 5px;
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    position: relative;
+}
+
+/* Social Icons Styles (Excluding from Centering) */
+.social-icons img {
+    width: 20px;
+    margin: 0 10px;
+    display: inline; /* Ensures icons are not affected by centering */
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+}
